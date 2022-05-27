@@ -40,15 +40,22 @@ main
 }
 aside
 {
+    width: 50%;
     margin: 15px;
     width: 100%;
 }
 article
 {
-    border-radius: 20px;
     display: block;
-    width: 100%;
+    width: 50%;
     height: -300px;
+    position: relative;
+}
+article img
+{
+    border-radius: 15px;
+    right: 40px;
+    position: relative;
 }
 h2
 {
