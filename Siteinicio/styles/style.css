@@ -1,66 +1,166 @@
-body
-{
-    width: 100%;
-    height: 100vh;
+body {
+    width: auto;
+    height: 110vw auto;
     margin: 0;
     padding: 0;
+    background: linear-gradient(to bottom right, red, yellow);
+    background-repeat: no-repeat;
 }
-header
-{
+
+header {
     position: relative;
 }
-.content{
+
+.content {
     width: 100%;
     height: 200px;
     background-color: rgba(156, 155, 155, 0.582);
     justify-content: space-between;
     flex-direction: row;
-   
+    display: flex;
+    position: relative;
 }
-.top_right
-{
+
+#logo {
+    width: 5%;
+    height: 5vw;
+    top: -100px;
+    position: relative;
+}
+
+.top_right {
     margin: 0;
     padding: 0;
     background-color: rgb(87, 22, 22);
     width: 100%;
     height: 50px;
-    top: -200px;
+    top: -280px;
     position: relative;
     color: aliceblue;
     font-size: 13px;
     font-family: sans-serif;
-    display: flex; 
+    display: flex;
 }
-.top_right li
-{
+
+.top_right li {
     display: inline-block;
     margin: 30px;
-   
 }
-.top_right a{
+
+.top_right a {
     position: relative;
     color: white;
     padding: 5px;
     top: -25px;
     margin: 10px;
-    
 }
-.top_right a:hover{
+
+.top_right a:hover {
     border-bottom: 2px solid #e3e3e3;
     transition: .3s ease-in-out;
     position: relative;
 }
-.top_right h3 
-{
+
+.top_right h3 {
     margin: 0;
     padding: 0;
     width: 10px;
     left: 60%;
     top: 15px;
-    position: relative;  
+    position: relative;
 }
-.top_right h3:hover
-{
-    cursor: pointer;
 
+.top_right h3:hover {
+    cursor: pointer;
+}
+
+article {
+    width: 50vw;
+    height: 30vh;
+    margin-left: 25%;
+    margin-bottom: 600px;
+}
+
+article img {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    border-radius: 35px;
+    box-shadow: 20px 20px 20px rgb(65, 61, 61);
+    position: relative;
+}
+
+aside {
+    width: 50%;
+    height: 100vh;
+    margin-left: 25%;
+}
+
+aside img {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 20px 25px 25px rgb(0, 0, 0);
+}
+
+#footer {
+    width: 100%;
+    height: 20vh;
+    background-color: black
+}
+
+#footer p {
+    color: white;
+    font-size: 20px;
+    font-family: poppins;
+    text-align: center;
+}
+main
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 100%;
+    align-items: center;
+}
+main article
+{
+    width: 100%;
+    height: 100vh;
+}
+article p
+{
+    color: white;
+    font-size: 2rem;
+    font-family: poppins;
+    margin-top: 60%;
+    left: -50%;
+    display: flex;
+    font-style: italic;
+    transition: 1s;
+    width: 100%;
+    position: relative;
+    opacity: 0.3;
+}
+main article
+{
+    width: 100%;
+    height: 30vh;
+}
+main aside
+{
+    width: 100%;
+    position: relative;
+    display: flex;
+    right: 30%;
+}
+main aside img
+{
+    width: 200%;
+}
+p:hover
+{
+    color:rgb(255, 255, 255);
+    opacity: 1;
 }

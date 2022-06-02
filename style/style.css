@@ -1,80 +1,80 @@
-body
-{
+body {
     background-color: rgb(34, 34, 34);
     color: white;
-    font-family: poppinsregular ;
-    
+    font-family: poppinsregular;
     margin: 0;
     padding: 0px;
 }
-header
-{
+
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-li
-{
+
+li {
     display: inline-block;
     margin: 20px;
 }
-a{
+
+a {
     color: white;
     padding: 1rem;
 }
-a:hover{
+
+a:hover {
     color: rgba(132, 14, 201, 0.9);
     transition: .5s;
 }
-h1
-{
+
+h1 {
     font-weight: 200;
 }
-main
-{
-    
+
+main {
     display: flex;
     flex-direction: row;
     margin-top: 50px;
 }
-aside
-{
+
+aside {
     width: 50%;
     margin: 15px;
     width: 100%;
 }
-article
-{
+
+article {
     display: block;
     width: 50%;
     height: -300px;
     position: relative;
+    margin-left: 100px;
 }
-article img
-{
+
+article img {
     border-radius: 15px;
-    right: 40px;
+    right: 80px;
     position: relative;
 }
-h2
-{
+
+h2 {
     font-size: 56px;
     font-family: poppinsmedium;
     color: blueviolet;
 }
-p
-{
+
+p {
     line-height: 20px;
     max-width: 500px;
     font-family: poppinslight;
 }
-img
-{
+
+img {
     width: 600px;
 }
-#inscreva-se-btn
-{
+
+#inscreva-se-btn {
     border: 2px solid rgba(132, 14, 201, 0.9);
     padding: 10px;
     border-radius: 15px;
@@ -82,29 +82,28 @@ img
     font-weight: bolder;
     font-style: italic;
 }
-#inscreva-se-btn:hover
-{
+
+#inscreva-se-btn:hover {
     background-color: rgba(132, 14, 201, 0.9);
     color: white;
 }
-form
-{
+
+form {
     display: flex;
     flex-direction: column;
     width: 70%;
 }
-form [type="submit"]
-{
+
+form [type="submit"] {
     height: 50px;
     width: 50%;
     background-color: rgba(132, 14, 201, 0.9);
     color: white;
     font-weight: bold;
     align-items: center;
-    
 }
-form [type="submit"]:hover
-{
+
+form [type="submit"]:hover {
     height: 50px;
     width: 50%;
     background-color: white;
@@ -113,8 +112,8 @@ form [type="submit"]:hover
     cursor: pointer;
     transition: .6s;
 }
-input
-{
+
+input {
     margin-top: 20px;
     height: 20px;
     padding: 20px;
@@ -122,19 +121,18 @@ input
     border: none;
     font-size: 15px;
 }
-#btn
-{
+
+#btn {
     display: none;
 }
-#logo
-{
+
+#logo {
     width: 8%;
     height: 8%;
     display: flex;
 }
 
-footer
-{
+footer {
     margin: 0 auto;
     padding: 0 auto;
     width: 200%;
@@ -142,15 +140,15 @@ footer
     background-color: rgb(48, 47, 47);
     display: flex;
 }
-.footer
-{
+
+.footer {
     font-size: 15px;
     font-family: poppins;
     text-align: center;
     padding: 15px;
 }
-footer img
-{
+
+footer img {
     width: 48px;
     height: 48px;
     margin-left: 500px;
