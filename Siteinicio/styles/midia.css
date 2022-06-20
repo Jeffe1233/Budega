@@ -14,35 +14,7 @@
     {
         width: 100%;
     }
-    main {
-        width: 100%;
-        display: block;
-        padding: 0;
-        margin: auto;
-        margin-left: 10px;
-        position: relative;
-        top: 150px;
-        text-align: center;
-    }
-
-    main aside img {
-        width: 100%;
-        margin-left: 80px;
-    }
-    .div_art p
-    {
-        width: 100%;
-        height: 170px;
-        background-color: black;
-        border-radius: 30px;
-        text-align: center;
-        margin-left: 130px;
-        font-size: 16px;
-        display: block;
-        margin: 0;
-        right: 300px;
-        margin-left: 45%;
-    }
+    
     div{
         width: 100%;
         display: flex;
@@ -145,14 +117,8 @@
         width: 100%;
         height: 600px;
     }
-    .div_art
-    {
-        width: 100%;
-        height: 150px;
-        display: block;
-    }
-    
-    
+
+
     #nav
     {
         width: 100%;
