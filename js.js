@@ -14,7 +14,7 @@ var img1="skol.png";
 var img2="Brahama.png";
 var img3="Heiniken.png";
 var img4="Corona.png";
-var tempo=2000;
+var tempo=2500;
 var roda_slide=setInterval("mostra()", tempo);
 
 function mostra()

@@ -8,27 +8,31 @@ body {
     font-family: poppinsregular;
     margin: 0;
     padding: 0px;
+    height: 100%;
+    width: 100%;
 }
 
 header {
     display: flex;
-    flex-direction: row;
+    flex-direction:row-reverse;
     justify-content: space-between;
-    align-items: center;
+    align-items:end;
 }
 
 li {
     display: inline-block;
     margin: 20px;
+    
 }
 
 a {
     color: white;
     padding: 1rem;
+    text-decoration: none;
 }
 
 a:hover {
-    color: rgba(132, 14, 201, 0.9);
+    color: rgba(123, 55, 163, 0.9);
     transition: .5s;
 }
 
@@ -54,12 +58,16 @@ article {
     height: -300px;
     position: relative;
     margin-left: 100px;
+    margin-bottom: 25px;
+    
 }
 
 article img {
     border-radius: 15px;
     right: 60px;
     position: relative;
+    box-shadow: 5px 0px 5px 0px #ffffff;
+    
 }
 
 h2 {
@@ -134,15 +142,18 @@ input {
     width: 8%;
     height: 8%;
     display: flex;
+    margin-left: 5%;
 }
 
 footer {
     margin: 0 auto;
     padding: 0 auto;
-    width: 200%;
+    width: 100%;
     height: 100px;
     background-color: rgb(48, 47, 47);
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer {
@@ -150,10 +161,13 @@ footer {
     font-family: poppins;
     text-align: center;
     padding: 15px;
+    justify-content: center;
+    align-items: center;
 }
 
 footer img {
     width: 48px;
     height: 48px;
     margin-left: 500px;
+    margin-top: 15px;
 }

@@ -1,10 +1,10 @@
 
 body {
-    width: auto;
-    height: 110vw auto;
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom right, rgba(255, 0, 0, 0.719), rgba(235, 235, 0, 0.61));
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.719), rgba(255, 255, 255, 0.61));
     background-repeat: no-repeat;
 }
 
@@ -12,20 +12,16 @@ header {
     position: relative;
 }
 
-.content {
-    width: 100%;
-    height: 130px;
-    background-color: rgba(156, 155, 155, 0.582);
-    justify-content: space-between;
-    flex-direction: column-reverse;
-    display: flex;
-    position: absolute;
-}
-
-#logo {
+.logo {
     width: 5%;
     height: 5vw;
     position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none  ;
 }
 
 #nav {
@@ -39,9 +35,10 @@ header {
     font-size: 13px;
     font-family: sans-serif;
     display: flex;
+    justify-content: first baseline;
 }
 
-#nav li {
+#nav li{
     display: inline-block;
     margin: 30px;
 }
@@ -92,14 +89,14 @@ article img {
 }
 
 aside {
-    width: 50%;
+    width: 100%;
     height: 100vh;
     margin-left: 25%;
     display: flex;
 }
 
 aside img {
-    width: 100%;
+    width: 50%;
     height: 100vh;
     align-items: center;
     border-radius: 30px;
@@ -132,25 +129,7 @@ main article
     width: 100%;
     height: 100vh;
 }
-article p
-{
-    color: white;
-    font-size: 2rem;
-    font-family: poppins;
-    margin-top: 60%;
-    left: -50%;
-    display: flex;
-    font-style: italic;
-    transition: 1s;
-    width: 100%;
-    position: relative;
-    opacity: 0.3;
-}
-main article
-{
-    width: 100%;
-    height: 30vh;
-}
+
 main aside
 {
     width: 100%;
@@ -160,7 +139,7 @@ main aside
 }
 main aside img
 {
-    width: 200%;
+    width: 60%;
 }
 p:hover
 {
@@ -173,7 +152,7 @@ p:hover
 #carrosel
 {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     border-radius: 30px;
@@ -181,6 +160,7 @@ p:hover
 }
 #carrosel img{
     border-radius: 30px;
-    
+    width: 50%;
+    height: 600px;
 }
 
